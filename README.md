@@ -54,6 +54,14 @@ chmod +x ./run_experiments.sh both
 
 It is going to take a while to run each experiment so maybe run them overnight.
 
+## Dependencies
+
+The experiments rely on the following original Julia packages:
+
+- [LiftAndLearn.jl](https://github.com/smallpondtom/LiftAndLearn.jl): The main Julia implementation of Operator Inference (and Lift & Learn) methods for learning reduced-order models from data.
+- [IncrementalSVD.jl](https://github.com/smallpondtom/IncrementalSVD.jl): A Julia package for performing incremental singular value decomposition (SVD) on streaming data. Including the key algorithms: Baker's algorithm and SketchySVD.
+- [ChaosGizmo.jl](https://github.com/smallpondtom/ChaosGizmo.jl): A Julia package for computing the Lyapunov exponents and the Kaplan-Yorke dimension. This package is used specifically used for the Kuramoto-Sivashinsky equation experiment to analyze the chaotic behavior of the learned reduced-order models.
+
 ## Contact
 
 For any questions, please contact Tomoki Koike at [tkoike@gatech.edu](mailto:tkoike@gatech.edu).
