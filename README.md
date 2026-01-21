@@ -2,7 +2,7 @@
 
 This repository contains the code to reproduce the experiments presented in the paper:
 
-**Efficient Streaming Operator Learning for Large-Scale Dynamical Systems**
+**Streaming Operator Inference for Model Reduction of Large-Scale Dynamical Systems**
 
 This repository contains the 1D viscous Burgers equation experiment and Kuramoto-Sivashinsky equation (KSE) example. The experiments demonstrate the performance of the Streaming-OpInf method for learning reduced-order models from streaming data. The 3D channel data is not available for public release and thus experiments on that dataset are not included here.
 
