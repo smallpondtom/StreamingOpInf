@@ -1,4 +1,4 @@
-# Streaming-OpInf
+# Streaming Operator Inference 
 
 This repository contains the code to reproduce the experiments presented in the paper:
 
